@@ -1,0 +1,22 @@
+CREATE DATABASE bdMtec
+
+USE bdMtec
+
+CREATE TABLE tbSegundoA(
+	idRMSegundo INT PRIMARY KEY IDENTITY (1,1)
+	,nomeAlunoA VARCHAR (100) NOT NULL
+	,statusA VARCHAR (50)  NOT NULL 
+)
+
+CREATE TABLE tbSegundoB(
+	idRMSegundoB INT PRIMARY KEY IDENTITY (1,1)
+	,nomeAlunoB VARCHAR (100) NOT NULL
+	,statusB VARCHAR (50)  NOT NULL 
+)
+
+CREATE TABLE tbTerceiro(
+	idRMTerceiro INT PRIMARY KEY IDENTITY (1,1)
+	,nomeAlunoT VARCHAR (100) NOT NULL
+	,statusT VARCHAR (50)  NOT NULL 
+)
+
